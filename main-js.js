@@ -3,7 +3,7 @@ let toggleMenuStats = false;
 let toggleNav = function() {
     let getMainNavUL = document.querySelector(".main-header-container .nav-holder ul");
     let getXMenu = document.querySelector(".main-header-container .hamburger-menu .la-times");
-    let getHamburgerMenu = document.querySelector(".main-header-container .hamburger-menu .fa-bars");
+    let getHamburgerMenu = document.querySelector(".main-header-container .hamburger-menu .la-bars");
     let getLogo = document.querySelector(".main-header-container .logo-holder");
 
     if (toggleMenuStats === false) {

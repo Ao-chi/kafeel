@@ -107,7 +107,7 @@ body {
     margin-right: 40px;
 }
 
-.main-header-container .hamburger-menu .fa-bars {
+.main-header-container .hamburger-menu .la-bars{
     visibility: visible;
     position: absolute;
     right: 0;
