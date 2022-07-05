@@ -30,6 +30,7 @@ body {
 }
 
 .main-header-container .logo-holder {
+    display: block;
     width: 176px;
     height: 100px;
     margin-left: 90px;
@@ -110,18 +111,18 @@ body {
     visibility: visible;
     position: absolute;
     right: 0;
-   
-    
+    font-size: 28px;
 }
 
 .main-header-container .hamburger-menu .la-times {
     visibility: hidden;
     position: absolute;
     right: 0;
+    font-size: 28px;
+   
     
-    font-weight: 900;
-    font-size: 30px;
 }
+
 
 .main-header-container .hamburger-menu .la-times:hover {
     color: #D3CBC3;
