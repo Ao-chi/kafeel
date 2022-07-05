@@ -12,6 +12,7 @@ let toggleNav = function() {
         getMainNavUL.style.top = "0";
         getXMenu.style.visibility = "visible";
         getHamburgerMenu.style.visibility = "hidden";
+        getMainNavUL.style.backgroundColor = "#C2BAAE";
 
         toggleMenuStats = true;
     }
