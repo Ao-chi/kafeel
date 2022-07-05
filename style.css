@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --font-color-main: #544013;
+    --main-fonts: 'Lato', sans-serif;
+    --secondary-font: 'Poppins', sans-serif;
+    --alter-color-font: #F2EDE7;
+}
+
+body {
+    background-color: #F2EDE7;
+    font-family: var(--main-fonts);
+    box-sizing: border-box;
+}
+
+* {
+    text-decoration: none;
+}
+
+.main-header-container {
+    display: flex; 
+    flex-wrap: nowrap;
+    background-color: transparent;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main-header-container .logo-holder {
+    width: 176px;
+    height: 100px;
+    margin-left: 90px;
+    padding-top: 13px;
+}
+
+.main-header-container img {
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main-header-container .nav-holder {
+    margin-left: 90px;
+    padding: 18px;
+    align-items: center;
+    display: flex;
+   
+}
+
+.main-header-container .nav-holder .nav-ul{
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 18px;
+}
+
+.main-header-container .nav-holder .nav-ul li{
+    padding: 26px 40px; 
+}
+
+.main-header-container .nav-holder .nav-ul li a{
+    color: var(--font-color-main);
+    padding-bottom: 10px;
+}
+
+.nav-holder2 {
+    display: flex;
+    flex-direction: column;
+    padding: 26px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nal-links2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-holder2 a {
+    padding: 26px 10px;
+    display: block;
+}
+
+.nav-holder2 a i {
+    font-size: 32px;
+    color: var(--font-color-main);
+}
+
+.nav-holder2 a i.lni-search-alt {
+    padding-top: 4px;
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--font-color-main);
+}
+
+
+
+/*Hamberger menu*/
+.main-header-container .hamburger-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-right: 25px;
+}
+
+.main-header-container .hamburger-menu .fa-bars {
+    visibility: visible;
+    position: absolute;
+    right: 0;
+    margin-right: 25px;
+}
+
+.main-header-container .hamburger-menu .fa-xmark {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    margin-right: 28px;
+}
+
+
+
+
+
+/*Section one bg*/
+
+.main-section .background-image {
+    background-image: url(images/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-position: bottom -56px right -96px;
+    background-size: auto 175%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;  
+}
+
+.background-image .welcome-message {
+    width: 600px;
+    padding: 360px 0 0 150px;
+    display: block;
+}   
+
+.background-image .welcome-message .taste-msg {
+    font-size: 5em;
+    font-weight: 900;
+    color: var(--font-color-main);
+    letter-spacing: 10px;
+    width: auto;
+}   
+
+.background-image .welcome-message p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-top: 20px;
+    width: calc(100% - 160px);
+}   
+
+.background-image .welcome-message .buy-btn {
+    cursor: pointer;
+    margin-top: 40px;
+    width: 300px;
+    background-color: transparent;
+    border: 1px solid var(--font-color-main);
+    padding: 18px;
+    text-align: left;
+    z-index: 102;
+    
+    
+}   
+
+.background-image .welcome-message .buy-btn .buy-now {
+    font-size: 22px;
+    font-family:var(--secondary-font);
+    font-weight: 600;
+    color: var(--font-color-main);
+    text-transform: uppercase;
+    line-height: 1.5em;
+    margin-left: 40px;
+}   
+
+.background-image .welcome-message .buy-btn .fa-arrow-right-long {
+    font-size: 22px;
+    width: 60px;
+    height: 10px;
+    color: var(--font-color-main);
+    margin-left: 30px;  
+}   
+
+
+
+
+/*.background-image .coffee-bean {
+    position: absolute;
+    transform: scaleX(-1);
+    transform: rotate3d(7, 60, 2, 180deg);
+    top: calc(100% - 540px);
+    left: -240px;
+    width: 45%;
+    z-index: 1;
+}   */
+
+
+
