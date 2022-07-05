@@ -1,8 +1,8 @@
 @media screen and (max-width: 1200px) {
 
     .main-section .background-image {
-        background-position: bottom -20px right -190px;;
-        background-size: contain;
+        background-position: bottom -20px right -170px;;
+        background-size: auto 110%;
         width: auto;
         justify-content: flex-start;
         align-items: center;

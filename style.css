@@ -111,14 +111,28 @@ body {
     position: absolute;
     right: 0;
     margin-right: 25px;
+    
 }
 
-.main-header-container .hamburger-menu .fa-xmark {
+.main-header-container .hamburger-menu .la-times {
     visibility: hidden;
     position: absolute;
     right: 0;
-    margin-right: 28px;
+    margin-right: 20px;
+    font-weight: 900;
+    font-size: 30px;
 }
+
+.main-header-container .hamburger-menu .la-times:hover {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    font-weight: 900;
+    font-size: 30px;
+    color: #D3CBC3;
+}
+
 
 
 

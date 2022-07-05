@@ -2,7 +2,7 @@ let toggleMenuStats = false;
 
 let toggleNav = function() {
     let getMainNavUL = document.querySelector(".main-header-container .nav-holder ul");
-    let getXMenu = document.querySelector(".main-header-container .hamburger-menu .fa-xmark");
+    let getXMenu = document.querySelector(".main-header-container .hamburger-menu .la-times");
     let getHamburgerMenu = document.querySelector(".main-header-container .hamburger-menu .fa-bars");
     let getLogo = document.querySelector(".main-header-container .logo-holder");
 
@@ -12,8 +12,6 @@ let toggleNav = function() {
         getMainNavUL.style.top = "0";
         getXMenu.style.visibility = "visible";
         getHamburgerMenu.style.visibility = "hidden";
-        getLogo.style.zIndex = "104";
-        getLogo.style.color = "red";
 
         toggleMenuStats = true;
     }
@@ -24,7 +22,6 @@ let toggleNav = function() {
         getMainNavUL.style.top = "100%";
         getXMenu.style.visibility = "hidden";
         getHamburgerMenu.style.visibility = "visible";
-        
 
         toggleMenuStats = false;
     }
