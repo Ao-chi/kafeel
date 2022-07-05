@@ -144,6 +144,7 @@
         transition: all 0.3s ease-in-out;
         padding-top: 120px;
         z-index: 100;
+        overflow-y: scroll;
     }
 
     .main-header-container .hamburger-menu {
