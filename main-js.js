@@ -12,7 +12,7 @@ let toggleNav = function() {
         getMainNavUL.style.top = "0";
         getXMenu.style.visibility = "visible";
         getHamburgerMenu.style.visibility = "hidden";
-
+        
         toggleMenuStats = true;
     }
 
@@ -55,3 +55,24 @@ for (let i = 0; i < getLinks.length; i++) {
 }
 
 
+
+
+function changeBackgroundColor () {
+    let getNav = document.querySelector(".main-header-container");
+    let getNav2 = document.querySelector(".main-header-container.background-change");
+    let scrollValue = window.scrollY;
+    
+    if(scrollValue > 250) {
+        getNav.classList.add("background-change");
+        getNav.style.animationName = "animate";
+    }
+    else {
+        getNav.classList.remove("background-change");
+        getNav.style.animationName = "animates";
+
+    }
+    
+
+}
+
+window.addEventListener('scroll' , changeBackgroundColor);
